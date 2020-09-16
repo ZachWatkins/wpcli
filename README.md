@@ -3,15 +3,15 @@ Author: Zachary Watkins, WordPress Developer
 
 **update-core-plugins-themes.sh**
 
-This program scans and documents the updates needed for a list of WordPress installations.
+Scan and document the updates needed for a list of WordPress installations.
 
 **where-is-page-template-used.sh**
 
-This program scans and documents where a theme-dependent page template is used in a list of WordPress installations.
+Scan and document where a theme-dependent page template is used in a list of WordPress installations.
 
 **where-is-plugin-used.sh**
 
-This program scans and documents where a plugin is used among a list of WordPress installations.
+Scan and document where a plugin is used among a list of WordPress installations.
 
 ## Setup
 1. Add your computer's SSH key to your web host account. This will authenticate SSH connections to the installs.

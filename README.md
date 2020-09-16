@@ -6,4 +6,4 @@ Author: Zachary Watkins, WordPress Developer
 2. Clone this repository to your computer.
 3. Open your shell and navigate to the repository's directory.
 4. Do `chmod u+x `*`filename`* in your shell to make the file executable.
-5. Run the file with `./`*`filename`*
+5. Run the file with `./filename`

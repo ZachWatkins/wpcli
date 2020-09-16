@@ -1,16 +1,11 @@
 # WP CLI Cookbook
 Author: Zachary Watkins, WordPress Developer
 
-**update-core-plugins-themes.sh**
-
+1. **update-core-plugins-themes.sh**  
 Scan and document the updates needed for a list of WordPress installations.
-
-**where-is-page-template-used.sh**
-
+2. **where-is-page-template-used.sh**  
 Scan and document where a theme-dependent page template is used in a list of WordPress installations.
-
-**where-is-plugin-used.sh**
-
+3. **where-is-plugin-used.sh**  
 Scan and document where a plugin is used among a list of WordPress installations.
 
 ## Setup

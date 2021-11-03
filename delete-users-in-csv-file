@@ -1,0 +1,15 @@
+# WP Engine Install Name
+install=install
+# WP Engine User's Email Address
+email=email@domain.com
+# User to reassign posts to
+username=organizationauthor
+# Convert the username file to a variable
+users=`cat users-to-delete.csv`
+# Define the Delete Users command
+wpcli_command="wp user delete $users --skip-plugins --skip-themes --reassign=$username --url="
+# For each site in the install, delete the users in the file and reassign their posts
+for url in $( wp site list --field="url" --skip-plugins --skip-themes --ssh=$email+$install@$install.ssh.wpengine.net );
+do
+    ssh $email+$install@$install.ssh.wpengine.net $wpcli_command$url
+done
